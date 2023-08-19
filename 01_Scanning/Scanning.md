@@ -73,7 +73,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 - TCP Connect scan establishes a full connection and tears it down by sending an RST packet.
 - It does not require a superuser.
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Untitled_1.png" alt="FullScan" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scanning/Img/Untitled_1.png" alt="FullScan" style="width: 50%; height: 50%;"> </p>
 
 
 1. **Stealth Scan (Half-open Scan) (-sS)**
