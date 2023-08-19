@@ -176,19 +176,17 @@ Identifying vulnerabilities and weaknesses of a system and network in order to d
 - Application and services vuln
 - Application and services configuration errors
 
-<aside> 🛠 Tools:
+🛠 Tools:
+>	- Nessus
+	- NMAP
+	- Nikto
+	- OpenVas [gvm]
+	- Wpscan
 
-- Nessus
-- NMAP
-- Nikto
-- OpenVas [gvm]
-- Wpscan </aside>
-
-<aside> ℹ️ **Note**
-
+ℹ️ **Note**
 CVE : Common Vulnerabilities and Exposure
 
-</aside>
+
 
 ### NMAP
 
