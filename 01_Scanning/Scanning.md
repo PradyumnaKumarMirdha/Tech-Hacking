@@ -94,7 +94,11 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 - It may give false positive responses.
 - Linux can provide this type of scan.
 
+<<<<<<< HEAD
 <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scannnig/Img/No_flag.png" alt="NullScan" style="width: 60%; height: 60%;"> </p>
+=======
+<p align="center"> <img src="" alt="NullScan" style="width: 60%; height: 60%;"> </p>
+>>>>>>> 3e09145b40d3d7073343a32acf5f4aa34a9100f7
 
 1. **Xmas Scan (-sX)**
 
