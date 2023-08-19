@@ -8,7 +8,7 @@ Increasing attack vectors. Decreasing the path gives the right direction.
 - Scanning is finding an attack surface, enumeration is expanding it.
 - Enumeration is the key to a successful penetration test.
 
-#### **`Information enumerated by Intruders:`**
+**Information enumerated by Intruders:**
 - Network resources
 - Network shares
 - Routing tables
