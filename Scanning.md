@@ -73,7 +73,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 - TCP Connect scan establishes a full connection and tears it down by sending an RST packet.
 - It does not require a superuser.
 
-<div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Untitled_1.png" alt="FullScan" style="width: 60%; height: 60%;"> </div>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Untitled_1.png" alt="FullScan" style="width: 50%; height: 50%;"> </p>
 
 
 1. **Stealth Scan (Half-open Scan) (-sS)**
@@ -85,7 +85,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
     - If the server responds with **RST**, then the port is closed
     - If the client sends the **RST** before a connection ever be established, it is open.
 *ROOT privileges required.*
-<div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Stealth_scan.png" alt="StealthScan" style="width: 60%; height: 60%;"> </div>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Stealth_scan.png" alt="StealthScan" style="width: 50%; height: 50%;"> </p>
 
 
 1. **Inverse TCP Flag Scanning (-sF, -sN)**
@@ -94,13 +94,13 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 - It may give false positive responses.
 - Linux can provide this type of scan.
 
-<div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/No_flag.png" alt="/NullScan" style="width: 80%; height: 80%;"> </div>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/No_flag.png" alt="/NullScan" style="width: 60%; height: 60%;"> </p>
 
 1. **Xmas Scan (-sX)**
 
 - In an Xmas scan, attackers send a TCP frame to a remote device with FIN, URG, and PUSH flags set.
 
-<div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Full_flag.png" alt="XmasScan" style="width: 80%; height: 80%;"> </div>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Full_flag.png" alt="XmasScan" style="width: 60%; height: 60%;"> </p>
 
 1. **ACK Flag Probe Scanning (-sA)**
 
@@ -124,7 +124,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
     - If a UDP packet is sent to a closed port, the system responds with ICMP port unreachable message (type 3, code 3).
     - Spyware, Trojan horses, and other malicious application use UDP ports.
     
-    <div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/UDP_scan.png" alt="/UDPScan" style="width: 90%; height: 90%;"> </div>
+    <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/UDP_scan.png" alt="/UDPScan" style="width: 90%; height: 90%;"> </p>
 
 🛠 Tools:
  
@@ -137,7 +137,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
     - Passive
 - Identifying the OS used on the target host allows an attacker to figure out the vuln the system possess and the exploits that might work on a system to further carry out additional attacks.
 
-<div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Banner_grabbing.png" alt="/BannerGrabbing" style="width: 80%; height: 80%;"> </div>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Banner_grabbing.png" alt="/BannerGrabbing" style="width: 60%; height: 60%;"> </p>
 
 3.1. **Active Banner Grabbing**
 
@@ -164,7 +164,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 - Use source routing
 - Connect to a proxy server or compromised trojan machine to launch an attack.
 
-<div style="text-align: center;"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Evading_IDS_Firewall.png" alt="FirewallEvasion" style="width: 80%; height: 80%;"> </div>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Evading_IDS_Firewall.png" alt="FirewallEvasion" style="width: 60%; height: 60%;"> </p>
 
 ---
 ## 4. 🎯Vulnerability Scanning
