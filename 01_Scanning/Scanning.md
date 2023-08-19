@@ -23,7 +23,7 @@
 
 🛠 Tools:
 
-	-  Angry IP Scanner 
+>	-  Angry IP Scanner 
 
 ---
 
@@ -128,7 +128,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 
 🛠 Tools:
  
-    - Colasoft [Creating custom packet]
+>    - Colasoft [Creating custom packet]
 ----
 ## 3. 📬Banner Grabbing:
 
@@ -153,9 +153,9 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 
 🛠 Tools:
 
-	1. IDserve
-	2. Netcraft
-	3. netcat 
+>	1. IDserve
+>	2. Netcraft
+>	3. netcat 
 
 ### Evading IDS, Firewalls
 
@@ -178,10 +178,10 @@ Identifying vulnerabilities and weaknesses of a system and network in order to d
 
 🛠 Tools:
 >	- Nessus
-	- NMAP
-	- Nikto
-	- OpenVas [gvm]
-	- Wpscan
+>	- NMAP
+>	- Nikto
+>	- OpenVas [gvm]
+>	- Wpscan
 
 ℹ️ **Note**
 CVE : Common Vulnerabilities and Exposure
@@ -218,10 +218,10 @@ nikto -h domain -o vuln_scan -F txt -p 80
 
 🛠 Tools:
 
-	- LANSurveyor
-	- Network Topology Mapper
-	- OpManager
-	- NetworkView
+>	- LANSurveyor
+>	- Network Topology Mapper
+>	- OpManager
+>	- NetworkView
 
 ---
 ## 6. Countermeasures
