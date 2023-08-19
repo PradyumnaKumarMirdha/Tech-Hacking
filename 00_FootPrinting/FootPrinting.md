@@ -75,8 +75,4 @@ DNS FOOTPRINTING
 
 - DNSdumpster
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ed7fe4f-4f71-4e27-a70e-c8e8df96f854/Untitled.png)
-
-[Scanning Phase](https://www.notion.so/Scanning-Phase-ab80e9dc0fdd4816aed7cf8d8462cbf3?pvs=21)
-
-[Enumeration](https://www.notion.so/Enumeration-3612c1a17dc046f98853920a9895287e?pvs=21)
+![DNS](https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/00_FootPrinting/Img/Untitled.png)
