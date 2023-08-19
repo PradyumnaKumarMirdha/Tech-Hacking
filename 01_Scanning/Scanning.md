@@ -76,7 +76,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scanning/Img/Untitled_1.png" alt="FullScan" style="width: 50%; height: 50%;"> </p>
 
 
-1. **Stealth Scan (Half-open Scan) (-sS)**
+2. **Stealth Scan (Half-open Scan) (-sS)**
 
 - Resetting the TCP connection between client and server abruptly before completion of three-way handshake signals making the connection half open.
 - Stealth Scan Process:
@@ -88,25 +88,20 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scanning/Img/Stealth_scan.png" alt="StealthScan" style="width: 50%; height: 50%;"> </p>
 
 
-1. **Inverse TCP Flag Scanning (-sF, -sN)**
+3. **Inverse TCP Flag Scanning (-sF, -sN)**
 
 - TCP probe packets with a TCP flag (FIN, URG, PSH) set or with no flags, no response means the port is open and RST means the port is closed.
 - It may give false positive responses.
 - Linux can provide this type of scan.
 
-<<<<<<< HEAD
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scannnig/Img/No_flag.png" alt="NullScan" style="width: 60%; height: 60%;"> </p>
-=======
-<p align="center"> <img src="" alt="NullScan" style="width: 60%; height: 60%;"> </p>
->>>>>>> 3e09145b40d3d7073343a32acf5f4aa34a9100f7
 
-1. **Xmas Scan (-sX)**
+4. **Xmas Scan (-sX)**
 
 - In an Xmas scan, attackers send a TCP frame to a remote device with FIN, URG, and PUSH flags set.
 
 <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scanning/Img/Full_flag.png" alt="XmasScan" style="width: 60%; height: 60%;"> </p>
 
-1. **ACK Flag Probe Scanning (-sA)**
+5. **ACK Flag Probe Scanning (-sA)**
 
 - The attacker sends TCP probe packets with the ACK flag set to a remote device and then analyzes the header information (TTL and WINDOW field) of received RST packets to find **whether the port is open or closed**.
 - If the **TTL** value of the RST packet is less than the boundary value of 64, we consider it as open.
@@ -116,7 +111,7 @@ Gathering attack surfaces for the victim against whom you want to launch an atta
 
 **Here our main objective is to analyze the rule of firewall**
 
-1. **UDP Scanning (-sU)**
+6. **UDP Scanning (-sU)**
 
 - UDP open
     
