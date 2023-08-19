@@ -233,14 +233,14 @@ nikto -h domain -o vuln_scan -F txt -p 80
     - For example: Do not allow frame size of more than 64-bit. But with fragmentation, it can be bypassed. To avoid that manually add value to the header.
 - Ensure that the anti-scanning and anti-spoofing rules are configured.
 
-**7.1. Port Scanning Countermeasures**:
+6.1. Port Scanning Countermeasures**:
 
 - Ensure updation in the router, IDS, and firewall firmware.
 - Use a custom ruleset to lock the network and block unwanted ports at the firewall.
 - Filter all ICMP messages [ Ensure not allow UDP scanning ]
 - Perform TCP and UDP scanning with ICMP probes to check the network configuration and its availability.
 
-**7.2. Banner Grabbing Countermeasures**:
+6.2. Banner Grabbing Countermeasures**:
 
 Disable or Changing of Banners
 
