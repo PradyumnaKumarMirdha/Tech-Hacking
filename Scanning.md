@@ -8,7 +8,7 @@
     - Packet InterNet Groper.
     - Useful for locating active devices or determining if ICMP passes through a firewall.
 
-![ICMP](Untitled.png)
+![ICMP](https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/Img/Untitled.png)
 
 - Ping Sweep -
     
