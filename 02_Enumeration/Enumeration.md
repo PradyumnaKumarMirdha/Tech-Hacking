@@ -66,7 +66,7 @@ Increasing attack vectors. Decreasing the path gives the right direction.
     
 `NOTE:` NetBIOS name resolution is not supported by Microsoft for Internet Protocol version 6 (IPV6).  
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/01_Scanning/Img/Stealth_scan.png" alt="StealthScan" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NetBIOS%20API.png" alt="NETBIOS" style="width: 50%; height: 50%;"> </p>
 
 > **An attacker uses the NetBIOS enumeration to obtain:**
 
@@ -80,9 +80,9 @@ Increasing attack vectors. Decreasing the path gives the right direction.
 - Launch DOS on the target
 - Enumerate password policies
 
-<aside> 🛠 Tools:
+🛠 Tools:
 
-- Nbstat </aside>
+> 	- Nbstat 
 
 It is Utility tool in Windows to display NetBIOS over TCP/IP(NetBT) protocol statistics, NetBIOS name table for both the local and remote computers, and NetBIOS name cache.
 
@@ -120,27 +120,27 @@ nbstat.exe -a IPaddress_of_remote_machine
 - Port 139: SMB originally ran on top of NetBIOS using port 139. NetBIOS is an older transport layer that allows Windows computers to talk to each other on the same network.
 - Port 445: Later version of SMB (After Windows 2000) began to use 445 on top of the TCP stack. Using TCP allows SMB to work over the internet.
 
-<aside> 🛠 Tools:
+🛠 Tools:
 
-- smbclient
-- smbman
-- Nmap </aside>
+>	- smbclient
+>	- smbman
+>	- Nmap 
 
-SMBCLIENT
+SMBCLIENT:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fba36be0-a98d-47b3-b63c-d5543c59429c/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SMBclient1.png" alt="SMBENUM" style="width: 50%; height: 50%;"> </p>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1f6a6e2-b6b5-461d-8a3e-54f52ddd01f4/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SMBclient2.png" alt="SMBENUM" style="width: 50%; height: 50%;"> </p>
 
 Nmap
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6fe11ca-cb10-405b-9d56-9e3406c1cec9/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NMAP_SMB_ENUM.png" alt="NMAP" style="width: 50%; height: 50%;"> </p>
 
 ```bash
 nmap —script=smb-enum-shares IPaddr
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2fa49cd-cfef-4276-9747-3c380b9ebafe/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NMAP_smb_script.png" alt="NMAP-script" style="width: 50%; height: 50%;"> </p>
 
 ---
 
@@ -158,7 +158,7 @@ Components of SNMP:
 - Agent: An agent can be thought of as a piece of software that runs on the managed device. Its primary job is to convert the information into SNMP-compatible format for smoother management of the network using SNMP protocol.
 - Network Management System: These are the software used to monitor network devices.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/590da6e6-5ba7-47e2-a6f2-55266876a483/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SNMP.png" alt="SNMP" style="width: 50%; height: 50%;"> </p>
 
 - SNMP holds two passwords to access and configure the SNMP agent from the management station:
     - Read community string: It is public by default and allows viewing of device/sys configuration.
@@ -184,11 +184,11 @@ The attacker uses these default strings or brute-forcing to extract information 
 - Information is transmitted between the client and server using Basic Encoding Rules (BER).
 - Attacker queries LDAP service to gather information such as valid user names, addresses, departmental details, etc. that can be further used to perform attacks.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcd59d73-ba9b-4027-84b2-1523363953de/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%206.png" alt="Operation" style="width: 50%; height: 50%;"> </p>
 
 Hierarchical Structure
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26286f62-55d6-4147-9f2b-66c80d9a82b2/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%207.png" alt="SNMP" style="width: 50%; height: 50%;"> </p>
 
 ---
 
@@ -203,10 +203,10 @@ Hierarchical Structure
 - SMTP servers respond differently to VRFY, EXPN, RCPT if invalid users when enumeration.
 - Attackers can directly interact with SMTP via telnet prompt and collect a list of valid users on the SMTP server.
 
-<aside> 🛠 Tools:
+🛠 Tools:
 
-- smtp
-- Metasploit </aside>
+>	- smtp
+>	- Metasploit 
 
 ---
 
@@ -225,7 +225,7 @@ Hierarchical Structure
 - In face, a DNS can contain multiple subdomains and multiple zones can exist on the same server.
 - DNS zone are not necessarily physically separated from one another, zones are strictly used for delegating control.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69722ba6-870f-466d-99a9-bee2b4639209/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%208.png" alt="DNS" style="width: 50%; height: 50%;"> </p>
 
 - All the information for a zone is stored in DNS zone file, the key to understanding zone operation.
 - A zone file is a plain text file stored in DNS server that contains an actual representation of zone and contains all the records for every domain within zone.
@@ -237,7 +237,7 @@ Hierarchical Structure
 - Whenever there is a change in the zone data on the primary DNS, then the changes have to be shared to the secondary DNS of the zone. This is Zone Transfer.
 - A zone transfer uses the TCP for transport and takes the form of a client-server transaction.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a8a9515-7037-4c68-9510-bee984a8ac75/Untitled.png)
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%209.png" alt="Zone transfer" style="width: 50%; height: 50%;"> </p>
 
 - Zone transfers are automatically triggered when the zone serial number increments ( the number increases ). The zone serial number increments when the zone receives an update.
 - A zone transfer can be full or incremental.
@@ -246,13 +246,11 @@ Hierarchical Structure
 - AXFR offers no authentication, so any client can ask a DNS server for a copy of the entire zone.
 - This means that unless some kind of protection is introduced, an attacker can get a list of all hosts for a domain, which gives them a lot of potential attack vectors.
 
-<aside> 🛠 Tools:
+🛠 Tools:
 
-- host
-- nslookup
-- dig
-
-</aside>
+>	- host
+>	- nslookup
+>	- dig
 
 host:
 
@@ -307,7 +305,7 @@ dig axfr @name.serv.er domain.TLD
     - Clients IP addresses in a network, their system names and OSs
     - Internal IPs can also be obtained NTP server is in the DMZ
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0bc90f66-b5f6-4096-b060-04deb82dd913/Untitled.png)
+    <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%210.png" alt="NTP" style="width: 50%; height: 50%;"> </p>
     
 
 ---
@@ -357,9 +355,8 @@ dig axfr @name.serv.er domain.TLD
     - Configure MD5 layer ( Hashing )
     - Configure NTP Authentication
     - Upgrade NTP version
-    
-    ![Enumeration_Countermeasures.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a447cd23-7611-4d0f-8b73-24ec6bf8e3fb/Enumeration_Countermeasures.png)
-    
+
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Enumeration_Countermeasures.png" alt="Countermeasure" style="width: 50%; height: 50%;"> </p>    
 
 ---
 
