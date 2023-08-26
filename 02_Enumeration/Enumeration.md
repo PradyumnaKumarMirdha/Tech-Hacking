@@ -305,7 +305,7 @@ dig axfr @name.serv.er domain.TLD
     - Clients IP addresses in a network, their system names and OSs
     - Internal IPs can also be obtained NTP server is in the DMZ
     
-    <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%210.png" alt="NTP" style="width: 70%; height: 70%;"> </p>
+    <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%2010.png" alt="NTP" style="width: 70%; height: 70%;"> </p>
     
 
 ---
