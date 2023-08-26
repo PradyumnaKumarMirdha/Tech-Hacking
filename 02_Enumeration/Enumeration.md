@@ -66,7 +66,7 @@ Increasing attack vectors. Decreasing the path gives the right direction.
     
 `NOTE:` NetBIOS name resolution is not supported by Microsoft for Internet Protocol version 6 (IPV6).  
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NetBIOS%20API.png" alt="NETBIOS" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NetBIOS%20API.png" alt="NETBIOS" style="width: 80%; height: 80%;"> </p>
 
 > **An attacker uses the NetBIOS enumeration to obtain:**
 
@@ -128,19 +128,19 @@ nbstat.exe -a IPaddress_of_remote_machine
 
 SMBCLIENT:
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SMBclient1.png" alt="SMBENUM" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SMBclient1.png" alt="SMBENUM" style="width: 90%; height: 90%;"> </p>
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SMBclient2.png" alt="SMBENUM" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SMBclient2.png" alt="SMBENUM" style="width: 90%; height: 90%;"> </p>
 
 Nmap
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NMAP_SMB_ENUM.png" alt="NMAP" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NMAP_SMB_ENUM.png" alt="NMAP" style="width: 90%; height: 90%;"> </p>
 
 ```bash
 nmap —script=smb-enum-shares IPaddr
 ```
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NMAP_smb_script.png" alt="NMAP-script" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/NMAP_smb_script.png" alt="NMAP-script" style="width: 90%; height: 90%;"> </p>
 
 ---
 
@@ -158,7 +158,7 @@ Components of SNMP:
 - Agent: An agent can be thought of as a piece of software that runs on the managed device. Its primary job is to convert the information into SNMP-compatible format for smoother management of the network using SNMP protocol.
 - Network Management System: These are the software used to monitor network devices.
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SNMP.png" alt="SNMP" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/SNMP.png" alt="SNMP" style="width: 80%; height: 80%;"> </p>
 
 - SNMP holds two passwords to access and configure the SNMP agent from the management station:
     - Read community string: It is public by default and allows viewing of device/sys configuration.
@@ -184,11 +184,11 @@ The attacker uses these default strings or brute-forcing to extract information 
 - Information is transmitted between the client and server using Basic Encoding Rules (BER).
 - Attacker queries LDAP service to gather information such as valid user names, addresses, departmental details, etc. that can be further used to perform attacks.
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%206.png" alt="Operation" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%206.png" alt="Operation" style="width: 80%; height: 80%;"> </p>
 
 Hierarchical Structure
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%207.png" alt="SNMP" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%207.png" alt="SNMP" style="width: 70%; height: 70%;"> </p>
 
 ---
 
@@ -225,7 +225,7 @@ Hierarchical Structure
 - In face, a DNS can contain multiple subdomains and multiple zones can exist on the same server.
 - DNS zone are not necessarily physically separated from one another, zones are strictly used for delegating control.
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%208.png" alt="DNS" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%208.png" alt="DNS" style="width: 80%; height: 80%;"> </p>
 
 - All the information for a zone is stored in DNS zone file, the key to understanding zone operation.
 - A zone file is a plain text file stored in DNS server that contains an actual representation of zone and contains all the records for every domain within zone.
@@ -237,7 +237,7 @@ Hierarchical Structure
 - Whenever there is a change in the zone data on the primary DNS, then the changes have to be shared to the secondary DNS of the zone. This is Zone Transfer.
 - A zone transfer uses the TCP for transport and takes the form of a client-server transaction.
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%209.png" alt="Zone transfer" style="width: 50%; height: 50%;"> </p>
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%209.png" alt="Zone transfer" style="width: 80%; height: 80%;"> </p>
 
 - Zone transfers are automatically triggered when the zone serial number increments ( the number increases ). The zone serial number increments when the zone receives an update.
 - A zone transfer can be full or incremental.
@@ -305,7 +305,7 @@ dig axfr @name.serv.er domain.TLD
     - Clients IP addresses in a network, their system names and OSs
     - Internal IPs can also be obtained NTP server is in the DMZ
     
-    <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%210.png" alt="NTP" style="width: 50%; height: 50%;"> </p>
+    <p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Untitled%210.png" alt="NTP" style="width: 70%; height: 70%;"> </p>
     
 
 ---
@@ -356,7 +356,7 @@ dig axfr @name.serv.er domain.TLD
     - Configure NTP Authentication
     - Upgrade NTP version
 
-<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Enumeration_Countermeasures.png" alt="Countermeasure" style="width: 50%; height: 50%;"> </p>    
+<p align="center"> <img src="https://github.com/PradyumnaKumarMirdha/Tech-Hacking/blob/main/02_Enumeration/Img/Enumeration_Countermeasures.png" alt="Countermeasure" style="width: 90%; height: 90%;"> </p>    
 
 ---
 
